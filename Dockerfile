@@ -7,7 +7,7 @@ ADD BaltimoreCyberTrustRoot.crt.pem /
 RUN pip install --upgrade pip
 
 RUN apt-get update \
-    && apt-get install -y --no-install-recommends openssh-server \
+    && apt-get install -y --no-install-recommends openssh-server 
     #&& echo "root:Docker!" | chpasswd
 
 CMD [ "python", "./main.py" ]
