@@ -1,0 +1,11 @@
+sqlacodegen mysql+pymysql://dovives@pitchounmysqldb-dev:*DouMe97@pitchounmysqldb-dev.mysql.database.azure.com:3306/pitchoundb
+
+
+sqlacodegen mysql+pymysql://dovives@pitchounmysqldb-dev:*DouMe97@pitchounmysqldb-dev.mysql.database.azure.com:3306/pitchoundb?ssl_key=D:\GitRepos\Python\Pitchoun\BaltimoreCyberTrustRoot.crt.pem&ssl_cert=BaltimoreCyberTrustRoot.crt.pem
+
+
+sqlacodegen mysql+pymysql://dovives@pitchounmysqldb-dev:*DouMe97@pitchounmysqldb-dev.mysql.database.azure.com:3306/pitchoundb?ssl_key=BaltimoreCyberTrustRoot.crt.pem
+
+
+
+sqlacodegen mysql+mysqlconnector://dovives@pitchounmysqldb-dev:*DouMe97@pitchounmysqldb-dev.mysql.database.azure.com:3306/pitchoundb
